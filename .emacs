@@ -21,6 +21,7 @@
 (unless (package-installed-p 'cider)
   (package-install 'cider))
 
+
 (unless (package-installed-p 'paredit)
   (package-install 'paredit))
 
@@ -55,6 +56,7 @@
 
 ;;;hooks
 (add-hook 'clojure-mode-hook (lambda ()
+			       (cider-mode +1)
 			       (paredit-mode +1)
 			       (rainbow-delimiters-mode +1)
 			       (auto-complete-mode +1)))
@@ -106,6 +108,7 @@
   (package-install 'solarized-theme))
 
 (global-set-key (kbd "C-c j") 'join-line)
+(global-set-key (kbd "M-g") 'goto-line)
 
 ;;; 1)cider-connect should read port fromn dot file in project
 ;;; 2)snippets
