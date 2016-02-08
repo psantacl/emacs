@@ -4,6 +4,10 @@
    'package-archives
    '("melpa" . "http://melpa.org/packages/")
    t)
+  (add-to-list
+   'package-archives
+   '("melpa-stable" . "https://stable.melpa.org/packages/")
+   t)
   (package-initialize))
 
 
@@ -11,6 +15,8 @@
 (ido-mode t)
 
 (add-to-list 'package-pinned-packages '(cider . "melpa-stable") t)
+(add-to-list 'package-pinned-packages '(paredit . "melpa-stable") t)
+(add-to-list 'package-pinned-packages '(ac-cider . "melpa-stable") t)
 
 (unless (package-installed-p 'cider)
   (package-install 'cider))
@@ -84,9 +90,8 @@
      (define-key clojure-mode-map (kbd "C-c s s") 'cider-connect)
      (define-key clojure-mode-map (kbd "C-c C-z") 'psc-switch-to-repl-buffer)))
 
-;; (eval-after-load 'clojure-mode
-;;   '(define-key clojure-mode-map (kbd "C-c C-z") 'psc-switch-to-repl-buffer))
-
+(eval-after-load 'clojure-mode
+  '(define-key clojure-mode-map (kbd "C-c C-z") 'psc-switch-to-repl-buffer))
 
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
