@@ -52,7 +52,8 @@
      (define-key paredit-mode-map (kbd "M-p a") 'paredit-splice-sexp-killing-backward)
      (define-key paredit-mode-map (kbd "M-p b")  'paredit-splice-sexp-killing-forward)
      (define-key paredit-mode-map (kbd "M-p c")  'paredit-forward-slurp-sexp)
-     (define-key paredit-mode-map (kbd "M-p d")  'paredit-forward-barf-sexp)))
+     (define-key paredit-mode-map (kbd "M-p d")  'paredit-forward-barf-sexp)
+     (define-key paredit-mode-map (kbd "M-k")  'kill-sexp)))
 
 (unless (package-installed-p 'rainbow-delimiters)
   (package-install 'rainbow-delimiters))
@@ -64,7 +65,8 @@
 			       (cider-mode +1)
 			       (paredit-mode +1)
 			       (rainbow-delimiters-mode +1)
-			       (auto-complete-mode +1)))
+			       ;; (auto-complete-mode +1)
+                               ))
 
 (add-hook 'emacs-lisp-mode-hook (lambda ()
 				  (paredit-mode +1)
