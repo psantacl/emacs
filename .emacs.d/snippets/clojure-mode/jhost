@@ -1,0 +1,5 @@
+# name : jhost
+# key : jhost
+# --
+
+(.getHostName (java.net.InetAddress/getLocalHost)) $0
