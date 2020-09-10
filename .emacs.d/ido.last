@@ -1,0 +1,385 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/opt/code/menagerie/src/com/stitchdata/menagerie/clients/connections/" . "jobs/")
+ ("/opt/code/connections-service-api-client/src/com/rjmetrics/" . "connections_service_api_client/")
+ ("/opt/code/connections-service-api-client/src/com/" . "rjmetrics/")
+ ("/opt/code/connections-service-api-client/src/" . "com/")
+ ("/opt/code/connections-service-api-client/" . "src/")
+ ("/opt/code/menagerie-api-client/src/com/stitchdata/" . "menagerie_api_client/")
+ ("/opt/code/menagerie-api-client/src/com/" . "stitchdata/")
+ ("/opt/code/menagerie-api-client/src/" . "com/")
+ ("/opt/code/menagerie-api-client/" . "src/")
+ ("/opt/code/smart-consumer/src/com/stitchdata/" . "smart_services/")
+ ("/opt/code/smart-consumer/src/com/" . "stitchdata/")
+ ("/opt/code/smart-consumer/src/" . "com/")
+ ("/opt/code/connections-service/.circleci/" . "bin/")
+ ("/opt/code/smart-consumer/" . "src/")
+ ("/opt/code/smart-services-vm/" . "bin/")
+ ("/opt/code/web-service-utils/test/com/stitchdata/" . "web_service_utils/")
+ ("/opt/code/web-service-utils/test/com/" . "stitchdata/")
+ ("/opt/code/web-service-utils/test/" . "com/")
+ ("/opt/code/smart-services/test/com/stitchdata/smart_services/" . "consumers/")
+ ("/opt/code/smart-gate/test/com/talend/" . "smart_gate/")
+ ("/opt/code/smart-gate/src/com/talend/smart_gate/" . "models/")
+ ("/opt/code/smart-gate/src/com/talend/" . "smart_gate/")
+ ("/opt/code/smart-gate/test/com/stitchdata/" . "smart_gate/")
+ ("/opt/code/smart-gate/test/com/" . "talend/")
+ ("/opt/code/smart-gate/test/" . "com/")
+ ("/opt/code/confluent-schema-client/src/com/talend/" . "confluent_schema_client/")
+ ("/opt/code/confluent-schema-client/src/com/" . "talend/")
+ ("/opt/code/confluent-schema-client/src/" . "com/")
+ ("/opt/code/confluent-schema-client/" . "src/")
+ ("/opt/code/smart-gate/src/com/stitchdata/smart_gate/" . "models/")
+ ("/opt/code/smart-gate/src/com/stitchdata/" . "smart_gate/")
+ ("/opt/code/smart-gate/src/com/" . "talend/")
+ ("/opt/code/smart-gate/src/" . "com/")
+ ("/opt/code/smart-gate/" . "test/")
+ ("/opt/code/orchestrator/" . "stitch_orchestrator/")
+ ("/opt/code/smart-services/src/com/stitchdata/smart_services/" . "consumers/")
+ ("/opt/code/environments/environments/smart-services/" . "prod/")
+ ("/opt/code/environments/environments/" . "smart-services/")
+ ("/opt/code/environments/" . "environments/")
+ ("/opt/code/web-service-utils/src/com/stitchdata/" . "web_service_utils/")
+ ("/opt/code/web-service-utils/src/com/" . "stitchdata/")
+ ("/opt/code/web-service-utils/src/" . "com/")
+ ("/opt/code/web-service-utils/" . "src/")
+ ("/opt/code/menagerie/test/com/stitchdata/menagerie/clients/" . "connections/")
+ ("/opt/code/menagerie/test/com/stitchdata/menagerie/" . "models/")
+ ("/opt/code/menagerie/src/com/stitchdata/menagerie/clients/" . "connections/")
+ ("/opt/code/menagerie/db/" . "migrate/")
+ ("/opt/code/connections-service/db/" . "migrate/")
+ ("/opt/code/smart-services/db/" . "migrate/")
+ ("/opt/code/connections-service/docker-compose/" . "mysql/")
+ ("/opt/deploy/kafka/" . "bin/")
+ ("/opt/deploy/" . "kafka/")
+ ("/opt/code/connections-service/src/clj/com/rjmetrics/" . "connection_check/")
+ ("/opt/code/connections-service/src/clj/com/" . "rjmetrics/")
+ ("/opt/code/connections-service/src/clj/" . "com/")
+ ("/opt/code/connections-service/src/" . "clj/")
+ ("/opt/code/connections-service/" . ".circleci/")
+ ("/opt/code/target-stitch/" . "target_stitch/")
+ ("/opt/code/smart-services/resources/" . "base/")
+ ("/opt/code/stats-service/src/com/stitchdata/stats_service/" . "data/")
+ ("/opt/code/stats-service/src/com/stitchdata/" . "stats_service/")
+ ("/opt/code/stats-service/src/com/" . "stitchdata/")
+ ("/opt/code/stats-service/src/" . "com/")
+ ("/opt/code/stats-service/" . "src/")
+ ("/opt/code/menagerie/src/com/stitchdata/menagerie/" . "clients/")
+ ("/opt/code/dogstatsd-client/src/com/stitchdata/" . "dogstatsd_client/")
+ ("/opt/code/dogstatsd-client/src/com/" . "stitchdata/")
+ ("/opt/code/dogstatsd-client/src/" . "com/")
+ ("/opt/code/dogstatsd-client/" . "src/")
+ ("/opt/code/pipeline-streamery/src/clj/com/rjmetrics/pipeline/" . "streamery/")
+ ("/opt/code/pipeline-streamery/src/clj/com/rjmetrics/" . "pipeline/")
+ ("/opt/code/pipeline-streamery/src/clj/com/" . "rjmetrics/")
+ ("/opt/code/pipeline-streamery/src/clj/" . "com/")
+ ("/opt/code/pipeline-streamery/src/" . "clj/")
+ ("/opt/code/pipeline-streamery/" . "src/")
+ ("/opt/code/smart-services-client/src/com/stitchdata/" . "smart_services_client/")
+ ("/opt/code/smart-services-client/src/com/" . "stitchdata/")
+ ("/opt/code/smart-services-client/src/" . "com/")
+ ("/opt/code/smart-services-client/" . "src/")
+ ("/opt/code/pipeline-gate/src/com/rjmetrics/pipeline/gate/" . "kafka/")
+ ("/opt/code/pipeline-gate/src/com/rjmetrics/pipeline/" . "gate/")
+ ("/opt/code/pipeline-gate/src/com/rjmetrics/" . "pipeline/")
+ ("/opt/code/pipeline-gate/src/com/" . "rjmetrics/")
+ ("/opt/code/pipeline-gate/src/" . "com/")
+ ("/opt/code/pipeline-gate/" . "src/")
+ ("/opt/code/menagerie/src/com/stitchdata/" . "menagerie/")
+ ("/opt/code/ide/bash/" . "functions/")
+ ("/opt/code/ide/" . "bash/")
+ ("/opt/code/menagerie/test/com/stitchdata/" . "menagerie/")
+ ("/opt/code/menagerie/test/com/" . "stitchdata/")
+ ("/opt/code/menagerie/test/" . "com/")
+ ("/opt/code/menagerie/src/com/" . "stitchdata/")
+ ("/opt/code/menagerie/src/" . "com/")
+ ("/opt/code/menagerie/" . "src/")
+ ("/opt/code/smart-services/test/com/stitchdata/" . "smart_services/")
+ ("/opt/code/smart-services/test/com/" . "stitchdata/")
+ ("/opt/code/smart-services/test/" . "com/")
+ ("/opt/code/cloudcutter/modules/" . "services/")
+ ("/opt/code/cloudcutter/" . "modules/")
+ ("/opt/code/smart-services/src/com/stitchdata/" . "smart_services/")
+ ("/opt/code/smart-services/src/com/" . "stitchdata/")
+ ("/opt/code/smart-services/src/" . "com/")
+ ("/opt/code/smart-services/" . "src/")
+ ("/opt/code/" . "menagerie/")
+ ("/opt/" . "code/")
+ ("/" . "opt/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/opt/code/smart-gate/src/com/talend/smart_gate/"
+ "/opt/code/smart-gate/test/com/talend/smart_gate/"
+ "/opt/code/smart-gate/bin/"
+ "/opt/code/menagerie/src/com/stitchdata/menagerie/clients/connections/"
+ "/opt/code/menagerie/src/com/stitchdata/menagerie/clients/connections/jobs/"
+ "/opt/code/smart-gate/.circleci/"
+ "/opt/code/smart-gate/"
+ "/opt/code/connections-service-api-client/src/com/rjmetrics/connections_service_api_client/"
+ "/opt/code/menagerie-api-client/src/com/stitchdata/menagerie_api_client/"
+ "/opt/code/web-service-utils/src/com/stitchdata/web_service_utils/"
+ "/opt/code/smart-gate/src/com/talend/smart_gate/models/"
+ "/opt/code/confluent-schema-client/src/com/talend/confluent_schema_client/"
+ "/opt/code/pipeline-gate/src/com/rjmetrics/pipeline/gate/"
+ "/opt/code/smart-services/src/com/stitchdata/smart_services/"
+ "/opt/code/pipeline-gate/src/com/rjmetrics/pipeline/gate/kafka/"
+ "/opt/code/pipeline-gate/src/com/rjmetrics/pipeline/gate/tools/"
+ "/opt/code/smart-consumer/src/com/stitchdata/smart_services/"
+ "/opt/code/smart-consumer/"
+ "/opt/code/connections-service/.circleci/"
+ "/opt/code/smart-consumer/.circleci/"
+ "/opt/code/smart-consumer/bin/"
+ "/opt/code/smart-services-vm/bin/"
+ "/opt/code/smart-services-vm/"
+ "/opt/code/smart-services/src/com/stitchdata/smart_services/consumers/"
+ "/opt/code/web-service-utils/"
+ "/opt/code/web-service-utils/test/com/stitchdata/web_service_utils/"
+ "/opt/code/smart-services/.circleci/"
+ "/opt/code/confluent-schema-client/.circlci/"
+ "/opt/code/pipeline-gate/bin/"
+ "/opt/code/dogstatsd-client/src/com/stitchdata/dogstatsd_client/"
+ "/opt/code/menagerie/src/com/stitchdata/menagerie/"
+ "/opt/code/smart-services-client/src/com/stitchdata/smart_services_client/"
+ "/opt/code/smart-services/test/com/stitchdata/smart_services/consumers/"
+ "/opt/code/smart-services/test/com/stitchdata/smart_services/"
+ "/opt/code/smart-gate/test/com/stitchdata/smart_gate/"
+ "/opt/code/smart-gate/src/com/stitchdata/smart_gate/"
+ "/opt/code/smart-services/"
+ "/opt/code/confluent-schema-client/"
+ "/opt/code/smart-gate/src/com/stitchdata/smart_gate/models/"
+ "/opt/code/smart-services/src/com/stitchdata/smart_services/models/"
+ "/opt/code/smart-services/bin/"
+ "/opt/code/environments/environments/smart-services/prod/"
+ "/opt/code/environments/environments/smart-services/vm/"
+ "/opt/code/orchestrator/stitch_orchestrator/"
+ "/opt/code/orchestrator/"
+ "/opt/code/menagerie/test/com/stitchdata/menagerie/"
+ "/opt/code/menagerie/test/com/stitchdata/menagerie/clients/connections/"
+ "/opt/code/menagerie/.circleci/"
+ "/opt/code/menagerie/"
+ "/opt/code/smart-services/db/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "token_renewer.clj"
+ "topic_collector.clj"
+ "test_auth.clj"
+ "token-checker-policy.hcl"
+ "jobs.clj"
+ "logs.clj"
+ "init-vault.sh"
+ "config.yml"
+ "docker-compose.yml"
+ "topics_post_test.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/opt/code/smart-gate/src/com/talend/smart_gate/" (24410 20069 878243 40000) "consumer.clj~" "config.clj~" "topic_utils.clj" "token_renewer.clj" "vault_client.clj~" "vault_client.clj" "./" "topic_collector.clj~" "../" "main.clj" "config.clj" "producers.clj~" "producers.clj" "schemas.clj~" "topics.clj~" "main.clj~" "topic_collector.clj" "topic_cache.clj~" "topics.clj" "models/" "token_renewer.clj~")
+
+ ("/opt/code/smart-gate/test/com/talend/smart_gate/" (24410 16589 756671 796000) "consumer.clj~" "test_auth.clj" "test_auth.clj~" "schemas_test.clj~" "test_utils.clj" "./" "../" "test_consumer.clj" "topics_get_test.clj" "test_utils.clj~" "topics_test.clj~" "topics_post_test.clj")
+
+ ("/opt/code/menagerie/src/com/stitchdata/menagerie/clients/connections/jobs/" (24290 40246 552932 493000) "logs.clj" "./" "../")
+
+ ("/opt/code/menagerie/src/com/stitchdata/menagerie/" (24365 48512 442012 119000) "#main.clj#" "create_jobs.clj" "utils.clj" "reckoner_client.clj" "vet.clj" "s3.clj" "smart_service_events.clj" "clients/" "./" "../" "main.clj" "config.clj" "db.clj" ".#main.clj" "utils/" "smart_service_events.clj~" "kube_client.clj" "models/")
+
+ ("/opt/code/menagerie/src/com/stitchdata/" (23966 5977 483305 966000) "menagerie/" "./" "../")
+
+ ("/opt/code/menagerie/src/com/" (23966 5977 483305 966000) "./" "../" "stitchdata/")
+
+ ("/opt/code/menagerie/src/" (23966 5977 483305 966000) "com/" "./" "../")
+
+ ("/opt/code/smart-gate/" (24410 13474 416532 721000) "Makefile" ".circleci/" ".hgignore" "test/" "Dockerfile" "docker-compose.yml~" "CHANGELOG.md" "./" "resources/" "../" "Makefile~" "Dockerfile~" "src/" "project.clj~" ".gitignore" "target/" "docker-compose.yml" "project.clj" "~" ".lein-failures" "LICENSE" "README.md" "env-vars.txt" ".git/" "bin/")
+
+ ("/opt/code/smart-gate/bin/" (24410 15185 734339 830000) "publish-to-test.sh~" "up.sh" ".run-tests.sh.swp" "stop-service.sh" "init-vault.sh" "init-vault.sh~" "token-checker-policy.hcl" "./" "start-service.sh" "../" "run-tests.sh" "ps.sh" "run-service.sh~" "publish-to-test.sh" "down.sh" "data.json" "logs.sh")
+
+ ("/opt/code/connections-service-api-client/src/com/rjmetrics/connections_service_api_client/" (24409 13742 655105 657000) "core.clj" "#core.clj#" "./" "../" ".#core.clj")
+
+ ("/opt/code/smart-gate/src/" (24365 37884 356162 965000) "com/" "./" "../")
+
+ ("/opt/code/connections-service-api-client/src/com/rjmetrics/" (24215 22436 316124 270000) "connections_service_api_client/" "./" "../")
+
+ ("/opt/code/connections-service-api-client/src/com/" (24215 22436 316124 270000) "rjmetrics/" "./" "../")
+
+ ("/opt/code/connections-service-api-client/src/" (24215 22436 316124 270000) "com/" "./" "../")
+
+ ("/opt/code/connections-service-api-client/" (24215 22436 316124 270000) "test/" "CHANGELOG.md" "./" ".github/" "../" "doc/" "src/" ".gitignore" "project.clj" "LICENSE" "README.md" ".git/")
+
+ ("/opt/code/menagerie-api-client/src/com/stitchdata/menagerie_api_client/" (24233 49142 201460 988000) "core.clj" "./" "../")
+
+ ("/opt/code/menagerie-api-client/src/com/stitchdata/" (24233 49142 201460 988000) "menagerie_api_client/" "./" "../")
+
+ ("/opt/code/menagerie-api-client/src/com/" (24233 49142 201460 988000) "./" "../" "stitchdata/")
+
+ ("/opt/code/menagerie-api-client/src/" (24233 49142 201460 988000) "com/" "./" "../")
+
+ ("/opt/code/menagerie-api-client/" (24233 49142 201460 988000) "./" ".github/" "../" "src/" ".gitignore" "project.clj" ".git/")
+
+ ("/opt/code/web-service-utils/src/com/stitchdata/" (24336 25987 630887 913000) "./" "../" "web_service_utils/")
+
+ ("/opt/code/web-service-utils/src/com/" (24336 25987 630887 913000) "./" "../" "stitchdata/")
+
+ ("/opt/code/web-service-utils/src/" (24336 25987 630887 913000) "com/" "./" "../")
+
+ ("/opt/code/pipeline-gate/src/com/rjmetrics/pipeline/gate/kafka/" (24402 37864 646035 835000) "./" "../" "producer.clj" "#producer.clj#" "persist.clj")
+
+ ("/opt/code/smart-services-vm/" (24400 64715 306028 652000) "docker-compose.yml~" "./" "../" ".gitignore" "docker-compose.yml" ".git/" "bin/")
+
+ ("/opt/code/smart-consumer/src/com/stitchdata/smart_services/" (24398 45077 914758 177000) "batch_inferences.clj" "current_topics.clj" "consumers/" "memory.clj~" "current_subjects.clj~" "current_topics.clj~" "batch_inferences.clj~" "./" "../" "main.clj" "config.clj" "producer.clj" "db.clj" "db.clj~" "current_subjects.clj" "memory.clj" "models/")
+
+ ("/opt/code/smart-services/src/com/stitchdata/smart_services/" (24398 25209 879253 946000) "batch_inferences.clj" "current_topics.clj" "consumers/" "memory.clj~" "current_subjects.clj~" "current_topics.clj~" "batch_inferences.clj~" "./" "../" "main.clj" "config.clj" "producer.clj" "db.clj" "db.clj~" "current_subjects.clj" "memory.clj" "models/")
+
+ ("/opt/code/smart-consumer/bin/" (24398 19347 446630 825000) "batch-inference-producer.py" "up.sh" "stop-service.sh" "db/" "./" "start-service.sh" "../" "run-tests.sh" "ps.sh" "logs.sh~" "make-tarball.sh" "down.sh" "logs.sh")
+
+ ("/opt/code/smart-services/db/" (24335 15157 894386 253000) "Dockerfile" "migrate/" "./" "create_dbs.sql" "../")
+
+ ("/opt/code/menagerie/test/com/stitchdata/menagerie/" (24333 48204 563048 260000) "smart_service_events_test.clj" "smart_service_events_test.clj~" "vet_test.clj" "clients/" "./" "connect_api_test.clj" "../" "fixtures.clj" "kube_client_test.clj" "models/" "create_jobs_test.clj")
+
+ ("/opt/code/smart-gate/src/com/talend/smart_gate/models/" (24390 46347 984196 974000) "./" "schemas.clj" "../" "schemas.clj~")
+
+ ("/opt/code/smart-consumer/.circleci/" (24393 9010 242894 934000) "config.yml~" "./" "../" "config.yml")
+
+ ("/opt/code/smart-consumer/" (24393 7342 649636 584000) "Makefile" ".circleci/" "db/" "env-vars.txt~" "Gemfile.lock" "Rakefile~" "test/" "Dockerfile" "package/" "CHANGELOG.md" "./" ".github/" "resources/" "../" "dev-resources/" "Gemfile" "src/" "Rakefile" ".gitignore" "target/" "docker-compose.yml" "project.clj" "~" ".lein-failures" "LICENSE" "README.md" "env-vars.txt" ".git/" "bin/" "snowflake.sql~")
+
+ ("/opt/code/pipeline-gate/src/com/rjmetrics/pipeline/gate/tools/" (24393 15324 506878 957000) "push.clj" "./" "../")
+
+ ("/opt/code/pipeline-gate/src/com/rjmetrics/pipeline/gate/" (24390 47500 319296 66000) "routes/" "kafka/" "marshal.clj" "./" "service.clj" "tools/" "timings.clj" "../" "config.clj" "routes.clj" "db.clj" "dlc.clj" "reporting.clj")
+
+ ("/opt/code/pipeline-gate/src/com/rjmetrics/pipeline/" (23966 5812 878315 938000) "./" "gate/" "../" "schema.clj")
+
+ ("/opt/code/pipeline-gate/src/com/rjmetrics/" (23966 5812 874315 826000) "./" "../" "pipeline/")
+
+ ("/opt/code/pipeline-gate/src/com/" (23966 5812 874315 826000) "rjmetrics/" "./" "../")
+
+ ("/opt/code/pipeline-gate/src/" (23966 5812 874315 826000) "com/" "./" "../")
+
+ ("/opt/code/smart-consumer/src/com/stitchdata/" (24193 62908 312527 722000) "./" "../" "smart_services/")
+
+ ("/opt/code/smart-consumer/src/com/" (24193 62908 312527 722000) "./" "../" "stitchdata/")
+
+ ("/opt/code/smart-consumer/src/" (24193 62908 312527 722000) "com/" "./" "../")
+
+ ("/opt/code/smart-gate/.circleci/" (24390 54183 67420 256000) "config.yml~" "./" "../" "config.yml")
+
+ ("/opt/code/smart-gate/src/com/" (24390 46347 980196 991000) "./" "../" "talend/")
+
+ ("/opt/code/connections-service/.circleci/bin/" (24381 38751 684250 373000) "job_build" "./" "job_test_step_prep" "../" "job_test_step_test")
+
+ ("/opt/code/connections-service/.circleci/" (24389 6643 599307 607000) "mysql-repo-apt-key" "./" "../" "#do_build#" ".#do_build" "config.yml" "bin/")
+
+ ("/opt/code/connections-service/.bundle/" (24289 8306 530557 443000) "config" "./" "../")
+
+ ("/opt/code/connections-service/" (24381 38163 26754 216000) "routing-table-production/" "Makefile" "routing-table-generated.json" ".circleci/" ".bundle/" "#docker-compose.yml#" "db/" "Gemfile.lock" "test/" "Dockerfile" ".lein-env" "test_env.sh" "./" ".github/" "routing-table.json" "resources/" ".dockerignore" "../" "vendor/" "README/" "routing-table.json.erb" "Gemfile" "src/" ".questions.txt.swp" "Rakefile" ".gitignore" "target/" "docker-compose.yml" "project.clj" "README.md" "migrations/" "env-vars.txt" ".git/" "bin/" "midje-config.clj")
+
+ ("/opt/code/connections-service/db/migrate/" (24381 38163 26754 216000) "20171006153000_change_wootric_to_alpha.rb" "20190823145809_create_tap_3plcentral_in_alpha.rb" "20180727112940_add_tap_intacct.rb" "20190627094348_add_tap_wootric_report_card.rb" "20180126102615_add_sendgrid.rb" "20190923131134_make_tap_mongodb_beta.rb" "20190927111306_create_tap_saasoptics_in_alpha.rb" "20200528105819_create_tap_adroll_in_alpha.rb" "20190329100033_crank_up_postgres_mem_limits.rb" "20170508132908_drop_import_token_column.rb" "20191028114045_expand_bigquery_v2_regions.rb" "20200720221151_revert_reduce_mysql_memory.rb" "20180322142753_fix_oracle_filter_schemas_property.rb" "20181003160559_bump_bingads_to_v2.rb" "20190726145042_helpscout_change_to_beta.rb" "20200603141239_bump_resources_for_162182_postgres.rb" "20200304114843_sftp_change_to_released.rb" "20190731175223_backfill_props_for_zuora.rb" "20181210150634_release_tap_revinate.rb" "20200805194812_bump_resources_for_159304_262790.rb" "20170510112759_add_system_paused_at_column.rb" "20170419144316_add_taboola_integration.rb" "20190307114715_fixup_shiphero_platform_integration_properties.rb" "20190221144356_add_bulk_page_size_to_eloqua.rb" "20191014194246_chargebee_change_to_released.rb" "20181116091604_fix_redshift_report_card.rb" "20190404101510_set_property_type_for_sources_again.rb" "20180523133600_bump_hubspot_to_v2.rb" "20190311202411_remove_pipedrive_phases.rb" "20200716213935_make_twitter_alpha.rb" "20200406173441_add_itersize_for_149757.rb" "20180605151023_fix_emarsys_auth.rb" "20200819123449_bump_mem_170466.rb" "20190508144732_create_tap_gemini_in_alpha.rb" "20170530154134_set_hubspot_property_selection.rb" "20200623164951_add_page_size_to_mambu.rb" "20200813133145_remove_wootric_discover_schema_step.rb" "20180821104910_add_harvest_forecast.rb" "20200619141316_add_setup_step_id_to_ebay.rb" "20200615171108_add_setup_step_id_to_frequency_in_minutes.rb" "20190318131810_create_tap_onfleet_in_alpha.rb" "20200407094327_pardot_change_to_released.rb" "20190627162653_add_tap_harvest_report_card.rb" "20181004133938_add_tap_stripe_auth.rb" "20190123134105_mysql_add_ssl_properties.rb" "20180820114523_add_tap_facebook_reviews.rb" "20171211180000_release_codat.rb" "20190604135938_set_user_provided_immutable_for_zuora_sandbox.rb" "20200331133931_create_tap_pepperjam_in_alpha.rb" "20171206173758_create_setup_steps_table.rb" "20200522195813_add_page_size_167590.rb" "20180824081942_add_tap_campaign_monitor.rb" "20200123212413_pinterest_ads_report_card_fix.rb" "20170216162300_rename_squatch.rb" "20170717150500_beta_exodus.rb" "20200609141019_create_tap_square_in_alpha.rb" "20181011143754_add_stripe_report_card.rb" "20200522183732_add_max_export_days_216444.rb" "20191210143939_change_dynamodb_values_to_system_provided.rb" "20191115113555_move_bigquery_v2_to_beta.rb" "20181107130149_add_postgres_destination_report_card.rb" "20190509153116_oracle_memory_for_client_131254.rb" "20180904142155_tap_fulfil_alpha.rb" "20191023181742_azure_setup_step_fix.rb" "20191118151920_create_tap_dynamodb_in_alpha.rb" "20180102092234_update_bing_names.rb" "20190722074911_onfleet_change_quota_limit_to_number_pattern.rb" "20200702172703_add_setup_step_id_to_toast.rb" "20200707201241_add_discover_schema_to_wootric.rb" "20200603190919_add_ordinal_to_iterable.rb" "20180613094923_user_id_is_system_provided_for_adwords.rb" "20190205105424_heap_change_to_beta.rb" "20200109203942_create_tap_pagerduty_in_alpha.rb" "20190724154000_recurly_ordinals.rb" "20200311191942_create_tap_mixpanel_in_alpha.rb" "20200428152416_pepperjam_change_to_beta.rb" "20190325154127_add_logical_total_poll_seconds_to_postgres.rb" "20190416161116_change_uri_json_schema_for_platform_cloudsql_pg.rb" "20190530154626_add_missing_properties_to_tap_chargebee.rb" "20170823180000_release_autopilot.rb" "20190409113306_tap_asana_to_alpha_latest.rb" "20190813100333_hubspot_attach_properties_to_setup_steps.rb" "20190116132306_make_jira_beta.rb" "20181107131349_add_snowflake_destination_report_card.rb" "20200813135354_remove_discover_schema_step_exhangeratesapi.rb" "20170615114251_add_mysql_integration.rb" "20181107130142_add_redshift_destination_report_card.rb" "20191007092430_add_new_bigquery_destination.rb" "20171106132044_make_salesforce_released.rb" "20190513160626_create_tap_appfigures_in_alpha.rb" "20191029143430_create_tap_copper_in_alpha.rb" "20170504125943_add_import_columns.rb" "20181129151137_add_resources_to_toggl.rb" "20200310110055_create_tap_circle_ci_in_alpha.rb" "20180904151326_add_server_id_to_mariadb_and_google_cloud_sql.rb" "20190422105346_tap_onfleet_open_beta.rb" "20171204144008_release_adwords.rb" "20200717144248_update_max_export_days_to_connection_145316.rb" "20170419111056_make_urban_airship_beta.rb" "20190628110319_add_tap_freshdesk_report_card.rb" "20200804100640_create_tap_quickbooks_in_alpha.rb" "20190627162706_add_tap_braintree_report_card.rb" "20190722075839_quickbase_app_url_pattern.rb" "20170323111600_add_facebook.rb" "20200603143032_insert_body_fields_only_for_157681_220645.rb" "20180315171343_create_mysql_report_card.rb" "20200615140323_add_end_date_to_adroll.rb" "20200226091006_system_unpause_all_dbreps_mongo_mssql.rb" "20170301160957_change_marketo_hubspot_closeio_to_prem.rb" "20170830144209_add_branded_mysql_integrations.rb" "20171205080000_add_exacttarget.rb" "20181016095329_create_redshift_report_card.rb" "20180918114449_fix_harvest_forecast_state.rb" "20190409093546_change_default_freshsales_image_version_to_alpha.rb" "20190304145346_frontapp_change_to_released.rb" "20171213130000_release_pipedrive.rb" "20180312110744_create_facebook_report_card.rb" "20190329143400_create_tap_recurly_in_alpha.rb" "20181205140800_eloqua_set_tap_mutable.rb" "20190417091934_change_uri_json_schema_for_platform_mariadb.rb" "20180801111442_bump_yotpo_to_v1.rb" "20181030111731_delete_extraneous_dests_for_now.rb" "20191114113640_add_group_to_jira_cloud.rb" "20191015172027_mambu_change_to_beta.rb" "20200319205815_backfill_google_analytics_properties.rb" "20200122171558_kustomer_required_to_nonrequired.rb" "20190722203107_add_json_schema_to_urban_airship_props.rb" "20190531090839_fix_setup_steps_for_pipedrive.rb" "20200319112140_add_page_size_surveymonkey.rb" "20200702141532_remove_tap_okta.rb" "20180830152835_add_platform_purple.rb" "20200122093837_add_schema_to_tap_redshift.rb" "20200221193815_surveymonkey_change_to_beta.rb" "20191030190228_add_oauth_to_outreach.rb" "20180103134939_remove_discover_schema_from_marketo_report_card.rb" "20190703144552_helpscout_mutable.rb" "20191205121352_add_to_results_per_page_to_shopify.rb" "20170821120000_add_autopilot_platform_migrations.rb" "20190408111135_add_default_source_props_to_deprecated_sources_with_report_cards.rb" "20200612135444_add_sandbox_to_square.rb" "20190322103956_add_optional_base_field_to_exchangeratesapi.rb" "20180904112749_closeio_alpha_to_beta.rb" "20180104160044_add_harvest_cred_props.rb" "20190529110711_add_use_log_based_replication_to_oracle.rb" "20181004115918_add_tap_stripe.rb" "20190919110051_tap_oracle_add_scn_window_size.rb" "20200817191041_create_tap_activecampaign_in_alpha.rb" "20191030114151_bigquery_v2_service_account_credentials_json_schema.rb" "20180515160715_add_emarsys_tap.rb" "20180607171732_add_user_agent_xero.rb" "20190905123238_create_tap_google_search_console_in_alpha.rb" "20180608135300_update_quickbase_integration_properties.rb" "20180710110912_add_use_log_based_replication_to_mysql.rb" "20200707160913_remove_wal2json_message_format_from_211338.rb" "20190417094645_change_uri_json_schema_for_platform_mysql.rb" "20191029154512_fix_tap_gemini_report_card.rb" "20190305154548_add_marketo_property_export_days.rb" "20190814190316_add_ordinals_to_marketobulk_properties.rb" "20181218114201_make_typeform_beta.rb" "20171002160943_add_salesforce_tap.rb" "20180906092620_platform_iapi.rb" "20180523095300_bump_referral_saasquatch_to_v1.rb" "20180607132827_migrate_platform_sendgrid_to_v_1.rb" "20170228202900_fix_marketo_and_braintree_props.rb" "20190814185844_add_ordinals_to_liveperson_properties.rb" "20200316175225_migrate_existing_delta.rb" "20190814191915_add_ordinals_to_taboola_properties.rb" "20190502105350_create_tap_mssql_in_alpha.rb" "20200310191629_remove_tap_exacttarget_oauth.rb" "20170725180000_sourcerer_integration_frequency_change.rb" "20190628112155_add_tap_gitlab_report_card.rb" "20190812170904_eloqua_bulk_page_size_json_schema.rb" "20190625135208_add_key_value_for_include_schemas_in_destination_stream_name.rb" "20180612172554_adwords_and_bing_props_that_are_not_system_provided.rb" "20170301121210_change_platform_integrations_to_std_tier.rb" "20180502000000_add_zendesk_chat_search_interval.rb" "20190408121530_crank_up_postgres_mem_limits_3.rb" "20190304163820_create_tap_freshsales_in_alpha.rb" "20191017181547_create_tap_chargify_in_alpha.rb" "20200427155324_create_tap_zoom_in_alpha.rb" "20190529121026_default_replication_method_no_longer_required_for_oracle.rb" "20200504200801_create_tap_twitter_ads_in_alpha.rb" "20200612142559_create_tap_snapchat_ads_in_alpha.rb" "20200127182749_tap_asana_ga.rb" "20171220200000_change_db2_properties.rb" "20180727100459_platform_pg_cloudsql_heroku.rb" "20200715100538_insert_verify_mode_to_connection_266222.rb" "20171004133958_make_platform_salesforce_client_id_a_cred.rb" "20190806111515_change_json_schema_for_include_schemas_in_in_destination_stream_name.rb" "20200102215106_convert_s3_to_v2_ui.rb" "20200409113203_reduce_results_per_page_224147.rb" "20191204134226_add_oauth_to_intercom.rb" "20180912113111_add_listrakrest.rb" "20200608160825_trello_change_to_beta.rb" "20190328131923_add_optional_search_prefix_to_s3_csv.rb" "20200522192313_shopify_add_date_window_249942.rb" "20180409130520_add_ssh_props_to_postgres.rb" "20181116110945_change_platform_purple_to_beta.rb" "20200603143302_insert_body_fields_only_for_167223_253145.rb" "20180907104427_update_harvest_forecast_add_auth.rb" "20190111155103_remove_metric_from_frontapp.rb" "20200313192432_move_delta_beta.rb" "20170911114352_release_tap_facebook.rb" "20190208161115_add_allow_non_auto_increment_pks_to_maria_db.rb" "20180730133125_closeio_supports_property_selection.rb" "20190403130603_add_eloqua_report_card.rb" "20190502103117_ga_release_platformpurple.rb" "20181119082630_fix_s3_report_card_required_fields.rb" "20170830134723_add_platform_integration_protocol_col.rb" "20170919171731_add_conversion_window_days_property_for_adwords.rb" "20190627150652_add_tap_selligent_report_card.rb" "20190614112010_change_json_schema_for_db2_ssh_props.rb" "20200501173731_add_legacy_bigquery_report_card.rb" "20180102120000_rename_bing.rb" "20190319101535_create_tap_invoiced_in_alpha.rb" "20200526202714_insert_results_per_page_for_164269_249942.rb" "20190814110850_move_campaign_monitor_profile_id_to_form_step.rb" "20200622160949_update_itersize_to_connection_235415.rb" "20190822151433_ringcentral_change_to_beta.rb" "20190627103648_add_tap_taboola_report_card.rb" "20181023113100_fix_pricing_tier_for_destinations.rb" "20191014145535_create_tap_sftp_in_alpha.rb" "20170412112453_add_has_profiles_column.rb" "20190320140118_add_debug_lsn_to_postgres.rb" "20171220150000_add_listrak.rb" "20190417100428_change_uri_json_schema_for_platform_db2.rb" "20180213163810_add_quickbase.rb" "20190604135950_set_user_provided_immutable_for_codat_uat.rb" "20190417095026_change_uri_json_schema_for_platform_oracle.rb" "20170328132800_add_harvest.rb" "20191105155121_update_tap_lever_image_version.rb" "20180124120000_add_facebook_include_deleted.rb" "20170918170000_add_zendesk_chat_subdomain.rb" "20180918090936_add_subdomain_to_clubspeed.rb" "20190802093447_backfill_salesforce_sandbox_prop.rb" "20200528102941_mixpanel_change_to_beta.rb" "20200624095618_update_page_size_to_connection_229296.rb" "20181106110842_add_client_id_index.rb" "20200421205421_add_results_per_page_to_241791.rb" "20190329162838_crank_up_postgres_mem_limits_2.rb" "20180619115810_add_config_location_to_tap_s3_csv.rb" "20170323105900_add_supports_property_selection.rb" "20190617155225_create_tap_iterable_in_alpha.rb" "20200528183956_lever_change_to_beta.rb" "20200728193805_reduce_page_size_262790.rb" "20200408102806_pin_tap_covid_beta_versions.rb" "20180906123622_turn_off_tap_purecloud_prop_selection.rb" "20191204190453_remove_facebook_kv.rb" "20170707140000_add_appsflyer_platform_migrations.rb" "20200723193514_create_tap_ilevel_in_alpha.rb" "20180109150609_rename_custom_frequency_in_minute_connection_key_values.rb" "20180521145209_release_github.rb" "20200409122010_add_date_window_size_234818.rb" "20200409141929_change_itersize_235415.rb" "20200211195832_create_tap_swellrewards_in_alpha.rb" "20190412141600_add_client_id_to_pir.rb" "20171207110925_add_setup_steps_for_panoply.rb" "20200414142849_update_dataworld_output_format_schema.rb" "20181129113256_add_use_log_based_replication_to_platform_aurora.rb" "20180824144715_add_s3_properties.rb" "20190412092943_set_tap_asana_image_version_to_sources_standard.rb" "20190716133052_add_json_schema_to_appsflyer_props.rb" "20200305163623_asana_v2_major_version_bump.rb" "20170913153000_add_xero_integration.rb" "20181129113458_add_use_log_based_replication_to_platform_postgres.rb" "20170807000000_change_apps_flyer_default_start.rb" "20171115100120_update_salesforce_to_released.rb" "20171030114519_add_api_type_to_salesforce.rb" "20190502110533_create_tap_redshift_in_alpha.rb" "20200622144428_reduce_facebook_memory.rb" "20200810194833_add_verify_mode_for_272463.rb" "20200720174755_reduce_mysql_memory.rb" "20191021143642_update_mssql_properties.rb" "20180530135336_add_itersize_to_postgres_props.rb" "20180927150656_add_tap_heap.rb" "20190815150458_create_tap_outreach_in_alpha.rb" "20200610170943_change_api_window_in_days_validation.rb" "20191218143228_darksky_change_to_beta.rb" "20170424165112_update_taboola_beta.rb" "20190828130805_create_tap_kitap_in_alpha.rb" "20200320155121_sources_reduce_search_window_netsuite.rb" "20171130180000_add_criteo.rb" "20190605115118_change_json_schema_for_port.rb" "20200604210322_insert_is_sandbox_for_136840_174251.rb" "20181030090420_delete_view_snapshot_connections.rb" "20200622110104_fix_tap_postgres_report_card.rb" "20180314092525_create_and_migrate_integration_exemptions.rb" "20191017141743_create_tap_darksky_in_alpha.rb" "20171107164010_bump_mysql_to_v1.rb" "20190628105745_add_tap_exacttarget_report_card.rb" "20181115111644_bump_shopify_memory.rb" "20200707161536_add_oauth_to_twitter.rb" "20200219183802_tap_impact_add_to_report_card.rb" "20190614132756_create_tap_helpscout_in_alpha.rb" "20190405150518_create_tap_asana_in_alpha.rb" "20190529110712_add_ssl_and_ssh_properties_to_platform_mssql.rb" "20170410165928_backfill_paused_at_and_deleted_at_cols.rb" "20200615215222_add_max_export_days_to_connection_255702.rb" "20180612155821_add_tap_s3_csv.rb" "20180608100741_add_filter_dbs_for_platform_mysql.rb" "20190618095402_add_log_based_replication_to_tap_mssql.rb" "20200218103517_delta_grant_for_158657.rb" "20170424135802_add_google_adwords_platform_migrations.rb" "20170307171311_make_before_update_trigger_not_affect_created_at.rb" "20200303113611_fix_tap_github_report_card.rb" "20200603194047_change_iterable_number_schema_to_string.rb" "20180326151842_add_bingads_report_card.rb" "20190502093618_ga_release_invoiced_platformpurple_heap_responsys_closeio_typeform_bigcommerce_toggl.rb" "20171003164839_add_start_date_to_platform_salesforce.rb" "20170223155831_add_not_null_constraint_to_connections.rb" "20200721151214_zoom_change_to_beta.rb" "20171016120000_update_pipedrive_protocol.rb" "20200317184016_sources_set_page_size_for_netsuite.rb" "20190320145851_set_property_types.rb" "20190627124132_add_tap_klaviyo_report_card.rb" "20181102151609_add_pi_resources_table.rb" "20190423113531_change_default_toast_image_version_to_alpha.rb" "20190719122834_change_mssql_default_scheduling_interval.rb" "20180824100015_add_tap_responsys.rb" "20181004174349_add_frontapp.rb" "20180104111327_add_schema_for_marketo_properties.rb" "20190627150439_liveperson_change_to_beta.rb" "20180509164555_postgres_make_default_replication_method_optional.rb" "20191107164650_update_tap_iterable_image_version.rb" "20180611110244_release_platform_fullstory.rb" "20190114135827_make_toggl_beta.rb" "20180829080324_add_tap_liveperson.rb" "20190627185416_add_tap_codat_report_card.rb" "20190812122123_add_setup_step_ids_to_eloqua_properties.rb" "20190528105735_fix_purcloud_report_card.rb" "20190329112951_add_date_window_to_tap_stripe.rb" "20180530144829_add_emarsys_max_pages_kv.rb" "20200424102316_oracle_change_to_v1.rb" "20200110212248_create_tap_criteo_in_alpha.rb" "20200219170059_linkedin_ads_change_to_beta.rb" "20170830145025_revert_closeio_to_alpha.rb" "20191007180839_create_tap_okta_in_alpha.rb" "20200327112119_google_analytics_change_to_beta.rb" "20180416114749_add_tap_zendesk.rb" "20200420173843_add_max_export_days_for_145316.rb" "20171228101342_set_required_for_marketo_max_daily_calls.rb" "20180907135759_more_import_api_junk.rb" "20171129135520_add_mysql_1_to_supported.rb" "20190415103515_add_optional_whitelist_to_stripe.rb" "20190926145717_deputy_change_to_beta.rb" "20180905152502_update_s3_version.rb" "20200306101003_bump_netsuite_memory_max_for_121446.rb" "20200225205421_add_quota_user.rb" "20181016150649_add_snowflake_report_card.rb" "20190521104848_cloudsql_add_ssl_fields.rb" "20180605155636_create_marketobulk_report_card.rb" "20190808154905_create_tap_ga360_in_alpha.rb" "20171229160000_bing_tap_oauth.rb" "20200729162214_destination_host_properties_looser_validation.rb" "20190813132706_update_stripe_json_schema.rb" "20170406111308_add_oauth_completed_property_to_harvest_and_hubspot.rb" "20190501164745_tap_mailchimp_property_change.rb" "20181012131558_add_json_schema_to_destination_properties.rb" "20181016142741_fix_azure_report_card.rb" "20181219152259_add_tap_shiphero.rb" "20170220152900_add_outbrain_marketo_wootric_urbanairship.rb" "20171121132000_update_xero_prop_selection.rb" "20200407195424_add_dataworld_destination.rb" "20190823111807_create_tap_mambu_in_alpha.rb" "20181116145935_remove_ssl_from_redshift_and_snowflake.rb" "20190409112812_tap_recurly_to_alpha_latest.rb" "20180109141026_create_zuora_report_card.rb" "20200622152715_add_ordinals_to_appfigures.rb" "20190319134051_add_invoiced_sandbox_field.rb" "20181126091915_update_destination_props.rb" "20190905102717_add_ordinal_to_mambu.rb" "20171207110924_add_setup_steps_keys_to_props_tables.rb" "20190722150300_add_json_schema_to_taboola_props.rb" "20191105204220_sftp_change_to_beta.rb" "20181126133317_update_tap_stripe.rb" "20190613115337_recurly_change_to_beta.rb" "20180924140931_change_responsys_protocol.rb" "20200701131147_change_validation_for_host_to_string.rb" "20200124210915_google_sheets_change_to_beta.rb" "20190604140002_set_user_provided_immutable_for_postgres_include_schemas_in_destination_stream_name.rb" "20200206181032_add_oauth_to_pinterest_ads.rb" "20170525142927_modify_zuora_properties.rb" "20181128151311_add_tap_eloqua.rb" "20171208084603_create_hubspot_report_card.rb" "20181129113405_add_use_log_based_replication_to_platform_mariadb.rb" "20200414143251_update_panoply_username_schema.rb" "20180823091551_add_xero_report_card.rb" "20200728095917_netsuite_suite_analytics_major_version.rb" "20181221133351_release_tap_shopify.rb" "20191016112955_create_tap_intercom_in_alpha.rb" "20200113205844_create_tap_pinterestads_in_alpha.rb" "20200622155433_make_wal2json_property_optional.rb" "20190816145432_add_oauth_to_linkedinads.rb" "20171129130000_add_codat.rb" "20200612174525_change_redshift_port_validation.rb" "20200225101225_system_pause_all_dbreps_mongo_mssql.rb" "20190711174117_tap_netsuite_add_optional_client_fields.rb" "20190405142034_tap_recurly_remove_user_agent.rb" "20181205104315_set_azure_destination_to_beta.rb" "20190723140241_add_json_schema_to_gitlab_projects_prop.rb" "20180606140109_bump_listrak_image_version.rb" "20200713152221_twitter_ads_change_to_beta.rb" "20200114140209_create_tap_kustomer_in_alpha.rb" "20200220164525_create_tap_workday_raas_in_alpha.rb" "20190723112312_add_json_schema_to_gitlab_props.rb" "20191022104613_add_platform_mssql_azure.rb" "20190417095308_change_uri_json_schema_for_platform_postgres.rb" "20190312115318_bigcommerce_change_to_beta.rb" "20170328141900_add_harvest_oauth_properties.rb" "20200214125709_tap_mongo_bump_major_version.rb" "20190703165602_fix_bad_report_cards.rb" "20190703175454_tap_zendesk_add_partner_properties.rb" "20190110153424_set_jira_basic_auth_tap_to_premium_pricing_tier.rb" "20181030094339_fix_azure_report_card_2.rb" "20171108093000_fix_ssl_props_for_cloud_mysql.rb" "20190814184241_add_ordinals_to_front_properties.rb" "20171106101839_add_hubspot_1_to_supported.rb" "20180917140231_add_clubspeed.rb" "20171229091323_add_is_required.rb" "20190614092918_fix_db2_report_card.rb" "20200810194634_add_max_export_days_for_268947.rb" "20200504183257_create_tap_typo_in_alpha.rb" "20171218150000_add_db2.rb" "20200415201417_change_date_window_size_and_results_per_page_for_224147.rb" "20181101091409_remove_ints_from_az_report_card.rb" "20190814191024_add_ordinals_to_outbrain_properties.rb" "20191007092238_add_user_provided_immutable_to_destination_properties.rb" "20190610155557_create_tap_lever_in_alpha.rb" "20171107110000_add_ssl_props_to_cloud_mysql.rb" "20190722164000_add_json_schema_to_outbrain_props.rb" "20180806095824_fix_heroku_and_cloudsql_pg_props.rb" "20170919140000_update_zendesk_chat_auth.rb" "20170410163437_change_harvests_required_creds.rb" "20191220154834_create_tap_slack_in_alpha.rb" "20190425161231_eloqua_change_to_beta.rb" "20180116132235_add_zuora_partner_id.rb" "20170412103425_make_account_id_required.rb" "20190814182100_add_ordinals_to_bigcommerce_properties.rb" "20170324140000_hubspot_default_start.rb" "20181220140037_add_resources_to_shiphero.rb" "20190425152132_create_tap_chargebee_in_alpha.rb" "20200508115440_change_page_size_246057.rb" "20191003125655_create_tap_recharge_in_alpha.rb" "20200810194751_add_wal2json_for_273205.rb" "20191210211917_change_xero_props_to_form_step.rb" "20181128145612_add_tap_toggl.rb" "20180627125831_fix_doubleclick_property_json.rb" "20171208133709_add_system_provided_column_to_sources_and_destinations.rb" "20200721181821_intercom_change_to_beta.rb" "20171214092429_make_instance_url_required_for_salesforce.rb" "20200121150826_add_ssl_to_tap_redshift.rb" "20181217132017_release_frontapp.rb" "20190627101448_add_tap_urban_airship_report_card.rb" "20180403144237_change_display_name_of_postgres.rb" "20180917142615_add_tap_shopify_properties.rb" "20191212164742_move_xero_props_back_to_oauth_step.rb" "20171114095545_change_platform_salesforce_default_frequency_to_one_hr.rb" "20190321150426_create_tap_exchangeratesapi_in_alpha.rb" "20190320104713_add_property_type_enum_to_platform_integration_properties.rb" "20171208134106_set_hubspot_system_provided_properties.rb" "20190905162507_add_prop_to_ga360.rb" "20200330150512_create_tap_mailshake_in_alpha.rb" "20190923110235_make_tap_mongodb_paid.rb" "20200318180905_sources_reduce_window_for_marketo.rb" "20191219164042_fix_dynamodb_account_id.rb" "20200402165136_tap_covid_19_change_to_beta.rb" "20180622160145_add_amplitude.rb" "20181113120009_add_s3_sentinel_key.rb" "20190107104038_release_responsys_beta.rb" "20180820135616_release_tap_amplitude.rb" "20190412100855_make_frequency_in_minutes_optional.rb" "20200804174433_update_search_window_size_for_159304_262790.rb" "20200218162836_jira_major_version_bump.rb" "20180313120011_default_scheduling_interval_for_platform_bing_ads.rb" "20190416155749_change_uri_json_schema_for_platform_aurora.rb" "20200728144730_update_search_window_size_262790.rb" "20180109132903_add_properties_to_zuora.rb" "20170209134100_add_platform_integrations.rb" "20170221162200_update_hubspot_properties.rb" "20200721142931_reduce_mysql_memory_again.rb" "20190723155330_mailchimp_change_to_beta.rb" "20190401120344_change_recurly_pricing_tier.rb" "20200302191918_ujet_change_to_beta.rb" "20180612121918_release_oracle.rb" "20190814185608_add_ordinals_to_jira_properties.rb" "20170915130000_add_zendesk_chat_integration.rb" "20200818181617_bump_mem_113437.rb" "20180822095323_update_harvest_forecast_property_selection.rb" "20200203213151_ga360_change_to_beta.rb" "20190814185308_add_ordinals_to_intacct_properties.rb" "20181112154420_change_v4_destinations_pricing_default_to_standard.rb" "20190321115226_invoiced_alpha_to_beta.rb" "20190611102951_create_tap_ebay_in_alpha.rb" "20190627090941_add_tap_zendesk_chat_report_card.rb" "20200717171807_adroll_change_to_beta.rb" "20180809151458_update_tap_uservoice_fields.rb" "20190604145138_add_missing_properties_to_tap_recurly.rb" "20200327150446_create_tap_covid_19_in_alpha.rb" "20170413112454_drop_is_required_column.rb" "20190604135944_set_user_provided_immutable_for_salesforce_sandbox.rb" "20200727200120_add_date_window_size_262790.rb" "20181030094008_add_ordinality_to_dest_props.rb" "20170519143141_add_zuora_integration.rb" "20200225143406_add_bgv2_locations.rb" "20190627114825_add_tap_autopilot_report_card.rb" "20170818153710_add_more_facebook_properties.rb" "20200318160602_sources_bump_resources_for_dynamo.rb" "20200121183415_add_survey_id_to_surveymonkey.rb" "20200205204043_fix_tap_ga360_memory.rb" "20180904164246_update_platform_purple.rb" "20190717142747_update_marketobulk_json_schemas.rb" "20190416161940_change_uri_json_schema_for_platform_heroku_pg.rb" "20170927120000_add_jira.rb" "20200407195420_add_panoply_destination.rb" "20180315171801_correct_oracle_prop_schemas.rb" "20180620134905_add_doubleclick_campaign_manager.rb" "20190305134349_shiphero_change_to_beta.rb" "20190115095012_add_resources_to_jira.rb" "20200309202623_exacttarget_bump_image_version.rb" "20200401140525_multiple_taps_change_to_released.rb" "20190809135006_tap_recurly_change_to_released.rb" "20190328102530_add_ordinal_column_to_platform_integration_properties.rb" "20181112091748_shopify_memory.rb" "20190503162541_pipedrive_to_1_latest.rb" "20181106140544_widen_connections_key_value_value_column.rb" "20181003163242_update_heap_properties.rb" "20170405160522_remove_defunct_harvest_properties.rb" "20180723115120_bump_zendesk_to_v1.rb" "20190411151722_set_tap_recurly_image_version_to_sources_standard.rb" "20190624152444_intacct_change_to_beta.rb" "20191031103000_remove_user_agent_from_copper.rb" "20181211105730_release_tap_clubspeed.rb" "20180823153335_add_include_schema_prop_for_postgres.rb" "20181029140954_add_property_to_shopify.rb" "20190426183804_change_salesforce_instance_url_schema.rb" "20190814192134_add_ordinals_to_typeform_properties.rb" "20200127134726_delta_report_card.rb" "20181130143735_add_tap_mutable_column.rb" "20200227092159_unpause_missed_mongo_mssql_dbreps_connections.rb" "20180312111027_create_adwords_report_card.rb" "20190222150939_add_search_window_size_to_netsuite.rb" "20190726104340_add_tap_mongodb.rb" "20180507180216_fix_ssh_props_for_postgres.rb" "20181219135757_release_tap_stripe.rb" "20181017094645_add_property_to_marketobulk.rb" "20181129133747_update_destination_props2.rb" "20170919120000_add_klaviyo.rb" "20191101134627_mongodb_change_to_released.rb" "20190530093622_mssql_change_alpha_version.rb" "20200709114618_add_wal2json_message_format_to_164838.rb" "20180606121254_migrate_marketobulk_to_v2.rb" "20180612174647_adwords_that_are_not_system_provided.rb" "20170419130555_make_harvest_beta.rb" "20180829151800_bump_harvest_to_v2.rb" "20191018095101_add_page_size_to_mailchimp.rb" "20180104092232_add_schema_for_hubspot_properties.rb" "20180102130000_update_bing_auth.rb" "20180905090944_turn_off_gitlab_groups_required.rb" "20171003140000_release_zendesk_chat.rb" "20191025130621_create_tap_google_analytics_in_alpha.rb" "20190620125816_update_toggle_report_card.rb" "20180904134526_closeio_report_card.rb" "20200603143049_insert_return_search_columns_for_157681_220645.rb" "20180810113456_release_tap_doubleclick.rb" "20190403141708_remove_token_prop_from_import_api.rb" "20200129111809_add_json_column_to_connections_key_value.rb" "20190503174846_rollback_pipedrive_to_0_latest.rb" "20200603143250_insert_return_search_columns_for_167223_253145.rb" "20200304160957_workday_raas_change_to_beta.rb" "20190822105755_ga360_optional_prop.rb" "20191217151344_threeplcentral_change_to_beta.rb" "20180606161744_release_bronto.rb" "20200604153040_add_ordinal_to_freshsales.rb" "20200204152812_release_bigquery_v2_destination.rb" "20170808101015_client_image_version_overrides.rb" "20190729145820_fix_salesforce_quota_json_schemas.rb" "20190226132343_create_tap_toast_in_alpha.rb" "20190503100555_update_azure_sas_url_schema.rb" "20180927113849_add_shopify_report_card.rb" "20200702180433_add_ordinals_to_toast.rb" "20180816141354_add_organization_name_to_xero.rb" "20190225164048_create_tap_bigcommerce_in_alpha.rb" "20200410180623_add_max_export_days_237903.rb" "20180404111257_update_zuora_report_card.rb" "20180822112741_update_xero_to_released.rb" "20181012132142_add_azure_report_card.rb" "20200602191800_netsuitesuiteanalytics_change_to_beta.rb" "20200529165744_insert_date_window_size_for_161100_235228.rb" "20180925151943_update_campaign_monitor_version.rb" "20191219193919_create_tap_surveymonkey_in_alpha.rb" "20200716101222_create_tap_amazon_ads_dsp_in_alpha.rb" "20190327102659_add_property_type_to_destinations.rb" "20180702123910_delete_config_location_property_from_s3_csv.rb" "20190626160735_asana_change_to_beta.rb" "20181113104154_s3_to_released.rb" "20180117120000_add_db2_filter_schemas_property.rb" "20190617103425_fix_helpscout_report_card.rb" "20190806102653_add_schema_property_to_tap_mssql.rb" "20200625132505_insert_verify_mode_to_connection_261190.rb" "20170405152544_add_required_for_full_configurability_to_platform_integrations.rb" "20200713150322_bump_resources_for_183888_mssql.rb" "20190730102731_make_deputy_refresh_token_mutable.rb" "20171227162151_add_bing_tap.rb" "20190723145010_assign_setup_steps_to_all_mailchimp_properties.rb" "20171019135508_default_scheduling_interval_for_platform_adwords.rb" "20200410115844_change_results_per_page_224147.rb" "20200106210057_create_tap_lookml_in_alpha.rb" "20181114153011_release_platform_purple.rb" "20191007151110_create_tap_satismeter_in_alpha.rb" "20200428202348_trello_oauth.rb" "20200207160249_pardot_change_to_beta.rb" "20170918194107_add_test_end_date_property_for_adwords.rb" "20181108160039_update_shopify_memory_again.rb" "platform_integrations.rb" "20191014133958_google_search_console_oauth.rb" "20200427202838_create_tap_trello_in_alpha.rb" "20171003155713_add_platform_salesforce_props.rb" "20170906133208_bump_facebook_to_v1.rb" "20170707132000_add_fullstory_platform_migrations.rb" "20190604134603_add_user_provided_immutable_to_platform_integration_properties.rb" "20190709171856_add_ordinals_to_gitlab_report_card_steps.rb" "20200702182403_remove_retailnext.rb" "20200604211952_change_nsa_to_premium.rb" "20190521132725_netsuite_change_to_released.rb" "20171206170620_create_destinations_table.rb" "20190814192321_add_ordinals_to_uservoice_properties.rb" "20180316163700_klaviyo_add_supports_property_selection.rb" "20200108202650_create_tap_dayforce_in_alpha.rb" "20180719080812_add_tap_uservoice.rb" "20181018093149_add_tap_typeform.rb" "20190320144352_change_tap_toast_fields.rb" "20200701182138_add_discover_schema_to_exchangeratesapi.rb" "20190516132325_fix_fullstory_report_card.rb" "20191028141831_fix_amplitude_version.rb" "20190821114327_add_exacttarget_prop.rb" "20200110211627_remove_old_criteo.rb" "20200608143922_create_tap_twilio_in_alpha.rb" "20180122151742_add_yotpo.rb" "20200723132818_changeoptionaltorequired.rb" "20171102132339_create_supported_platform_integrations_table.rb" "20171211170000_release_appsflyer_klaviyo_exacttarget_selligent.rb" "20181113093920_fix_snowflake_report_card.rb" "20200630145023_add_setup_step_ids_snapchat_ads.rb" "20200123180603_recharge_change_to_beta.rb" "20190627151525_add_tap_retail_next_report_card.rb" "20190913115518_tap_zendesk_chat_add_optional_properties.rb" "20200817152425_bump_mem_client_159304_conn_262790.rb" "20170221162700_update_marketo_properties.rb" "20190816093459_add_oauth_to_deputy.rb" "20190531131542_oracle_log_based_rep_should_be_user_provded.rb" "20170223175914_add_paws_props_to_platform_closeio.rb" "20190605115513_add_additional_properties_to_tap_hubspot.rb" "20190131173858_exacttarget_add_tenant_subdomain.rb" "20200707160912_add_wal2json_message_format_to_211338.rb" "20200110165458_create_tap_looker_in_alpha.rb" "20190627094510_add_tap_appsflyer_fully_configured.rb" "20170731130000_add_selligent_platform_migrations.rb" "20190627154527_add_tap_referral_saas_report_card.rb" "20180626162243_release_tap_quickbase.rb" "20180907080058_add_tap_harvest_forecast_property_selection.rb" "20170324100000_unrequire_hubspot_props.rb" "20180220173138_create_platform_oracle_connection.rb" "20171228142137_no_field_selection_in_marketo_report_card.rb" "20180918141221_release_uservoice.rb" "20200526192326_update_page_size_for_137420_167590.rb" "20190814181025_add_ordinals_to_aurora_fields.rb" "20180329110203_add_github_integration.rb" "20190208161111_add_allow_non_auto_increment_pks_to_aurora_mysql.rb" "20190722145928_set_property_ordinals_for_revinate.rb" "20180316092323_add_bronto_integration.rb" "20191028101900_tap_google_analytics_add_profile_selection.rb" "20191016151454_create_tap_impact_in_alpha.rb" "20170228105808_remove_paws_props_from_closeio.rb" "20190416160750_change_uri_json_schema_for_platform_cloudsql.rb" "20181108125838_add_s3_destination_report_card.rb" "20200211103507_tap_mongo_add_verify_mode_property.rb" "20200131144249_bulk_ga_release_taps.rb" "20170405095048_add_paused_at_deleted_at_cols_to_connections.rb" "20190211105208_tap_netsuite_paid.rb" "20191015161447_fix_google_search_console_oauth.rb" "20180104091015_add_json_schema_to_platform_integration_properties.rb" "20200617010323_add_max_export_days_to_connection_249535.rb" "20171102133256_add_adwords_1_to_supported.rb" "20181018140526_fix_marketo_max_daily_calls.rb" "20180919135528_add_oauth_to_campaign_monitor.rb" "20200515160408_change_date_window_size_155533.rb" "20190627120715_add_tap_shippo_report_card.rb" "20200309180450_mailchimp_change_to_released.rb" "20190814174543_update_amplitude_property_ordinals.rb" "20180917135916_add_tap_shopify.rb" "20170410171124_change_facebook_auth_type.rb" "20190724104452_tap_hubspot_change_json_schema.rb" "20190531133426_make_platform_integration_property_type_not_nullable.rb" "20190717093101_add_setup_step_ids_to_lever_props.rb" "20190710153559_add_intacct_iam_properties.rb" "20171016090000_add_pipedrive_platform_migrations.rb" "20190725140719_create_tap_deputy_in_alpha.rb" "20181015131055_add_tap_revinate.rb" "20200309111909_soft_delete_all_mongo_mssql_dbreps.rb" "20180830104422_add_server_id_to_mysql.rb" "20181218105635_make_frontapp_beta.rb" "20170224080000_add_shippo.rb" "20200220102042_tap_google_analytics_add_reports_property.rb" "20200401154343_create_tap_netsuite_suite_analytics_in_alpha.rb" "20200324103923_kustomer_change_to_beta.rb" "20200227102323_unpause_missed_active_mongo_mssql_dbreps_connections.rb" "20190628105203_add_tap_emarsys_report_card.rb" "20171016130000_add_marketo_bulk.rb" "20191219185510_dynamodb_add_region_name.rb" "20200722192935_changeoptionalvalues.rb" "20170915124000_fix_xero_props.rb" "20190501125154_create_tap_density_in_alpha.rb" "20190110151414_add_jira_cloud.rb" "20200624161736_update_page_size_to_connection_224992.rb" "20190528152433_add_mysql_incremental_limit.rb" "20180612121926_release_db2.rb" "20190627160142_add_tap_outbrain_report_card.rb" "20190814191650_add_ordinals_to_selligent_properties.rb" "20200505181258_tap_typo_remove_output_rfc_property.rb" "20171024102653_release_tap_mysql.rb" "20200617003248_update_max_export_days_to_connection_255702.rb" "20191002150217_create_tap_mavenlink_in_alpha.rb" "20180918111012_release_harvest_forecast.rb" "20171106111000_add_fb_1_to_supported.rb" "20190812131744_mssql_change_to_released.rb" "20200701145022_mailshake_change_to_beta.rb" "20200526202604_update_date_window_size_for_164269_249942.rb" "20190618175500_add_groups_property_to_tap_jira.rb" "20190627170917_add_json_schema_to_shippo_token.rb" "20181107110020_remove_ssl_from_az.rb" "20170209142800_add_platform_integration_records.rb" "20180518113724_add_filter_dbs_prop_to_postgres.rb" "20200309152220_exacttarget_auth_change.rb" "20190628104156_add_setup_step_ids_to_tap_mssql.rb" "20190325151819_netsuite_change_to_beta.rb" "20200415145631_outreach_change_to_beta.rb" "20180726135510_one_latest_for_closeio.rb" "20190625153349_tap_asana_access_token_not_required.rb" "20200806195305_add_ckv_for_159304_262790.rb" "20200302162734_saasoptics_change_to_beta.rb" "20170822115758_bump_hubspot_to_v1.rb" "20190719112046_create_tap_linkedinads_in_alpha.rb" "20190426133648_create_tap_mailchimp_in_alpha.rb" "20180417130939_release_platform_zuora.rb" "20190304214922_add_report_card_to_pipedrive.rb" "20190710122955_add_ordinals_to_username_password_types.rb" "20190208161125_add_allow_non_auto_increment_pks_to_google_cloud_mysql.rb" "20181129113420_add_use_log_based_replication_to_platform_cloudsql.rb" "20200218105531_soft_delete_all_dbreps_mysql_postgres.rb" "20181016152135_add_postgres_report_card.rb" "20180426150942_add_optional_content_scope_to_hubspot.rb" "20190703165601_fix_db2_duplicate_setup_steps.rb" "20181113130451_create_storagegrid_report_card.rb" "20200310141706_delta_ssh_data_model.rb" "20191122144759_create_tap_ujet_in_alpha.rb" "20181010104456_stripe_add_property_selection.rb" "20171004125050_create_transmutations.rb" "20190205160508_create_tap_netsuite_in_alpha.rb" "20200624182827_make_use_local_dynamo_immutable.rb" "20190404100348_add_property_type_to_destinations_again.rb" "20180918130223_import_api_token_is_required.rb" "20200713190210_add_slack_properties.rb" "20190726131917_update_recurly_quota_limit_json_schema.rb" "20200410181223_add_max_export_days_237906.rb" "20200318183559_sources_reduce_page_size_netsuite.rb" "20180102133000_update_bing_ads_auth.rb" "20200811204222_decrease_date_window_for_268830.rb" "20170227130827_widen_connection_checks_message_column.rb" "20180606135610_create_listrak_report_card.rb" "20171006101005_add_select_fields_by_default_to_platform_salesforce.rb" "20180322100147_add_filter_schemas_prop_to_oracle.rb" "20200625154310_impact_change_to_beta.rb" "20190322105136_add_default_source_props_to_db.rb" "20171212131745_create_marketo_report_card.rb" "20200617111311_update_max_export_days_to_connection_249535.rb" "20190207111314_tap_stripe_resources_100_250_to_100_500.rb" "20200225191632_google_sheets_change_to_released.rb" "20170919180000_update_zendesk_chat_prop_selection.rb" "20190617142347_fix_tap_mssql_property_schemas.rb" "20190604150316_set_user_provided_immutable_for_zuora_european.rb" "20190814183949_add_ordinals_to_freshdesk_properties.rb" "20180724132048_add_ssl_to_postgres_tap_properties.rb" "20180315104850_add_ssh_properties_for_platform_oracle.rb" "20190611102957_create_tap_ringcentral_in_alpha.rb" "20190626135246_add_form_setup_steps_to_appsflyer.rb" "20170825140256_add_platform_integration_properties_mysql_ssh.rb" "20191021144727_saasoptics_ordinal_and_required_property.rb" "20200415180606_change_results_per_page_for_224147.rb" "20170919130000_fix_xero_rsa_key.rb" "20180806013652_add_tap_woocommerce.rb" "20190507160814_bump_pipedrive_to_1_latest.rb" "20190823123544_add_ordinals_to_ringcentral_properties.rb" "20180129114841_fix_yotpo.rb" "20181119130506_update_shopify_to_beta.rb" "20200622164513_add_frequency_in_minutes_to_appfigures.rb" "20190429105109_change_integration_type_collation_to_utf8_unicode_ci.rb" "20200608174841_add_ordinal_to_redshift.rb" "20170228143000_make_platform_integrations_beta.rb" "20170821130000_add_autopilot_prop_selection.rb" "20180904195417_fix_branded_mysql_server_ids.rb" "20180905112516_add_logmeinrescue.rb" "20180720130424_release_s3_csv_beta.rb" "20190517131957_chargebee_change_to_beta.rb" "20190208155841_add_allow_non_auto_increment_pks_to_mysql.rb" "20190417095430_change_uri_json_schema_for_platform_salesforce.rb" "20181106094556_modify_shopify_stripe_memory.rb" "20190722141843_add_window_size_knobs_to_tap_hubspot.rb" "20190627150440_liveperson_set_proper_beta_image_version.rb" "20200819162044_decrease_page_size_160210_268675.rb" "20190807152213_create_tap_pardot_in_alpha.rb" "20171205220000_add_retailnext.rb" "20190628104045_add_tap_criteo_report_card.rb" "20200807150019_slack_change_to_beta.rb" "20181129173243_drop_transmutations.rb" "20191018112512_add_darksky_prop.rb" "20200609142635_change_redshift_host_to_ip_or_url.rb" "20180810135740_add_tap_purecloud.rb" "20200629184239_soft_delete_sourcerer_shopify.rb" "20190604150322_set_user_provided_immutable_for_salesforce_api_type.rb" "20171229093648_remove_required_to_be_fully_configured.rb" "20190226160741_jira_change_to_released.rb" "20200708014351_add_ordinal_to_wootric.rb" "20180413100242_add_gitlab_groups.rb" "20200619173432_add_ordinals_to_ebay.rb" "20191230111811_dynamodb_change_to_beta.rb" "20190814183253_add_ordinals_to_exacttarget_properties.rb" "20180402154236_add_database_to_postgres_tap.rb" "20191212201145_make_xero_v2.rb" "20171212133528_create_salesforce_report_card.rb" "20180105093242_add_schema_for_salesforce_properties.rb" "20171211161316_drop_not_null_constraint_on_token_name.rb" "20200310173622_make_recurly_frequency_in_minutes_optional.rb" "20171206172933_create_destination_properties_table.rb" "20170814151802_backfill_image_version.rb" "20191118124934_create_tap_google_sheets_in_alpha.rb" "20181130154609_add_eloqua_oauth.rb" "../" "./")
+
+ ("/home/ubuntu/" (24389 31164 310364 507000) ".terraform.d/" ".lein/" "chef-run-report-20191009172418.json" ".lesshst" ".kube/" ".parallel/" "curl/" "bookmarks.parquet" "ssl-test/" "current_topics.clj" ".emacs.d/" ".bash_logout" ".berkshelf/" "##opt##" ".m2/" ".bashrc" "agen" "strike.txt~" ".stitch/" ".docker/" "git/" ".ipython/" ".tmux.conf" "aws-creds-backup" "aws.config.bck" "chicken/" "kafka_2.11-1.0.0.tgz" "#opt#" ".pylint.d/" ".gnupg/" "strike.txt" "./" "tuna.txt~" "tuna.txt" ".snowsql/" ".bash_ps1" ".wget-hsts" "../" ".my.cnf" ".viminfo" ".emacs" ".mysql_history" ".aws/" ".agent.env" ".databrickscfg" "#chicken.txt#" ".virtualenvs/" "config.yml" ".gitconfig" ".vim/" ".psql_history" ".python_history" "run-a-test-simple.sh" ".kitchen/" "chicken.txt" ".#opt" ".sudo_as_admin_successful" ".cache/" ".profile.d/" "cow.parquet" ".bash_history" ".profile" ".##opt#" ".config/" ".local/" "bin/" ".ssh/" "chicken.txt~" "2020-04-14T00:01:38.596Z-smart-services-consumer2-smart-services-consumer-1.parquet")
+
+ ("/opt/code/smart-services/bin/" (24384 10749 179098 599000) "connect-db.sh~" "batch-inference-producer.py" "db/" "create-new-db-migration.sh~" "./" "create-new-db-migration.sh" "rollback.sh" "../" "event-started-producer.py~" "run-tests.sh" "create-topics.sh")
+
+ ("/opt/code/confluent-schema-client/" (24389 21210 435757 604000) "pom.xml" ".circleci/" ".hgignore" "test/" "CHANGELOG.md" "./" ".github/" "resources/" "../" "src/" "project.clj~" ".gitignore" "target/" "project.clj" "LICENSE" "README.md" ".git/")
+
+ ("/opt/code/smart-services/" (24384 11698 982741 386000) "Makefile" ".circleci/" "db/" "env-vars.txt~" "Gemfile.lock" "Rakefile~" "test/" "Dockerfile" "package/" "CHANGELOG.md" "./" ".github/" "resources/" "../" "dev-resources/" "snowflake.sql" "Gemfile" "src/" "Rakefile" ".gitignore" "target/" "docker-compose.yml" "project.clj" "~" ".lein-failures" "LICENSE" "README.md" "env-vars.txt" ".git/" "bin/" "snowflake.sql~")
+
+ ("/opt/code/confluent-schema-client/src/com/talend/confluent_schema_client/" (24380 16326 984563 55000) "core.clj" "./" "../" "core.clj~")
+
+ ("/opt/code/smart-services/.circleci/" (24389 20289 611382 397000) "#config.yml#" "config.yml~" "./" "../" "config.yml")
+
+ ("/opt/code/web-service-utils/src/com/stitchdata/web_service_utils/" (24381 15314 532401 964000) "status.clj" "utils_test.clj" "before_filter.clj" "auth.clj" "./" "../" "config.clj" "tolerable_exception.clj" "middleware.clj")
+
+ ("/opt/code/" (24389 21356 755177 832000) "reckoner/" "menagerie/" "connections-service/" "loader-bq/" "boxcutter/" "cloudcutter/" "confluent-schema-client/" "parquet-mr/" "smart-gate/" "loader-pg/" "core-service-migrations/" "spool-service/" "parquet-mr-apache-parquet-1.8.2/" "core-service-client/" "web-service-utils/" "apache-parquet-1.8.2.tar.gz" "./" "stitch-tasks/" "core-services/" "smart-services-client/" "dogstatsd-client/" "deployment-utils/" "profile/" "../" "scheduler/" "ide/" "smart-services/" "tap-postgres/" "loader-snow/" "pipeline-gate/" "tap-tester/" "config-clj/" "notification-service/" "pipeline-tracer/" "menagerie-api-client/" "pipeline-spool/" "emacs/" "smart-consumer/" "orchestrator/" "loader-bigquery/" "stats-service/" "environments/" "loader-common/" "loader-delta/" "maestro/" "loader-sqldw/" "smart-services-vm/" "pipeline-loaderx/" "connections-service-api-client/" "target-stitch/" "app/" "pipeline-streamery/" "singer-python/")
+
+ ("/opt/code/smart-services-vm/bin/" (24382 58583 271171 354000) "list-topics.sh" "./" "../" "reset-retention-time.sh" "create-topics.sh")
+
+ ("/opt/code/pipeline-gate/bin/" (24381 30645 331439 975000) "entrypoint.sh" ".batch-data.json.swp" "docker-batch-to-gate.sh" "bigbatch-to-gate.sh" "./" "source-envs.sh" "../" "batch-data.json" "docker-bigbatch-to-gate.sh" "docker-push-to-gate.sh" "ensure-env-ssl.sh" ".batch-to-gate.sh.swp" "batch-to-gate.sh" "data.json" "push-to-gate.sh")
+
+ ("/opt/code/pipeline-gate/" (24381 30645 331439 975000) "fake-metadata-service/" "Makefile" ".circleci/" "test/" "Dockerfile" ".lein-env" "CHANGELOG.md" "./" ".github/" "resources/" ".dockerignore" "../" "awesom-o/" "doc/" ".nrepl-port" "src/" ".gitignore" "target/" "docker-compose.yml" "project.clj" "LICENSE" "README.md" "docker-compose.override.yml" "env-vars.txt" "java/" ".git/" "bin/")
+
+ ("/opt/code/web-service-utils/" (24381 15342 280307 837000) "Makefile" "pom.xml" ".circleci/" "test/" "CHANGELOG.md" "./" ".github/" "resources/" "../" "doc/" "src/" ".gitignore" "target/" "project.clj" "LICENSE" "README.md" ".git/")
+
+ ("/opt/code/web-service-utils/test/com/stitchdata/web_service_utils/" (24381 15314 532401 964000) "before_filter_test.clj" "auth_test.clj" "middleware_test.clj" "./" "fallback_to_s3_test.clj" "../")
+
+ ("/opt/code/web-service-utils/test/com/stitchdata/" (24336 25987 630887 913000) "./" "../" "web_service_utils/")
+
+ ("/opt/code/web-service-utils/test/com/" (24336 25987 630887 913000) "./" "../" "stitchdata/")
+
+ ("/opt/code/web-service-utils/test/" (24336 25987 630887 913000) "com/" "./" "../")
+
+ ("/opt/code/confluent-schema-client/.circlci/" (24380 15829 450602 370000) "./" "../")
+
+ ("/opt/code/cloudcutter/modules/services/" (24372 2270 43092 859000) "layer_streamery.tf" "layer_dbreplicators_workers.tf" "layer_smart_services_schema_registry.tf" "layer_loader_s3.tf" "layer_stats_service.tf" "layer_sourcerer_scheduler.tf" "layer_loader_sqldw.tf" "iam_roles.tf" "layer_smart_services_consumer.tf" "versions.tf" "smart_services.tf" "opsworks.tf" "layer_sourcerer_service.tf" "layer_tracer.tf" "stack_webservices.tf" "layer_staging_api_passthrough.tf" "layer_loader_bq.tf" "layer_loader_snow.tf" "layer_api_passthrough.tf" "tap_mssql.tf" "iam_policies.tf" "layer_admin.tf" "layer_dbreplicators_service.tf" "stack_deployment.tf" "stack_monitoring.tf" "iam_policy_attachments.tf" "kafka_shared.tf" "stack_smart_services.tf" "layer_notification_service.tf" "singer.tf" "layer_connection_service.tf" "./" "layer_staging_front_end_app.tf" "elasticache.tf" "layer_core_service_scheduler.tf" "layer_sourcerer_workers.tf" "layer_core_service.tf" "layer_smart_services_schema_registry.tf~" "provider.tf" "../" "s3.tf" "layer_pipeline_gate.tf" "layer_front_end_app.tf" "layer_zookeeper_services_16_8.tf" "layer_reckoner.tf" "datadog.tf" "layer_menagerie_service.tf" "sns.tf" "data/" "layer_loader_x2.tf" "layer_core_service_migrations.tf" "security_groups_internal.tf" "layer_scheduler.tf" "layer_webhookz.tf" "stack_pipeline.tf" "layer_zookeeper_loaders_16_8.tf" "layer_loader_bigquery.tf" "layer_zookeeper_kafka_16_8.tf" "stack_bastion.tf" "iam_instance_profiles.tf" "layer_loader_pg.tf" "kms.tf" "rds.tf" "eks.tf" "layer_dogstatsd.tf" "security_groups_public.tf" "layer_pipeline_kafka_green.tf" "stack_replication.tf" "variables.tf" "layer_helga.tf" "iam_assume_role_policies.tf" "layer_loader_delta.tf" "layer_spool_service.tf" "stack_microsites.tf")
+
+ ("/opt/code/pipeline-streamery/src/clj/com/rjmetrics/pipeline/streamery/" (24215 17267 130223 120000) "#main.clj#" "./" "../" "main.clj" "config.clj" "db.clj" "doubleread.clj")
+
+ ("/opt/code/smart-services/src/com/stitchdata/smart_services/consumers/" (24379 55956 11795 511000) "common.clj" "batch_inference.clj" "utils.clj" "events.clj~" "./" "../" "common.clj~" "batch_inference.clj~" "events.clj")
+
+ ("/opt/code/smart-services/test/com/stitchdata/smart_services/consumers/" (24379 55998 999633 270000) "./" "../" "events_test.clj" "common_test.clj~" "batch_inferences_test.clj" "batch_inferences_test.clj~")
+
+ ("/opt/code/menagerie/src/com/stitchdata/menagerie/clients/connections/" (24378 59081 691509 619000) ".#exit_status.clj" "streams/" "./" "exit_status.clj" "jobs.clj" "schemas.clj" "../" "#exit_status.clj#" "jobs/" "state.clj")
+
+ ("/opt/code/menagerie/src/com/stitchdata/menagerie/clients/" (23966 5977 483305 966000) "connections/" "./" "../")
+
+ ("/opt/code/menagerie/src/com/stitchdata/menagerie/models/" (24373 43428 298378 289000) "#kube.clj#" "shards.clj" "client.clj" "recently_attempted_jobs.clj" "./" "exit_status.clj" "schemas.clj" "../" "metadata.clj" "kube.clj")
+
+ ("/opt/code/dogstatsd-client/src/com/stitchdata/dogstatsd_client/" (24213 64869 904420 358000) "core.clj" "./" "../")
+
+ ("/opt/code/dogstatsd-client/src/com/stitchdata/" (24213 52126 320766 883000) "dogstatsd_client/" "./" "../")
+
+ ("/opt/code/dogstatsd-client/src/com/" (24213 52126 320766 883000) "./" "../" "stitchdata/")
+
+ ("/opt/code/dogstatsd-client/src/" (24213 52126 320766 883000) "com/" "./" "../")
+
+ ("/opt/code/dogstatsd-client/" (24213 52126 320766 883000) "Makefile" "Dockerfile" "docs/" "./" "sending_metrics_to_dogstatsd.html" "../" "src/" ".gitignore" "docker-compose.yml" "project.clj" "README.md" ".git/")
+
+ ("/opt/code/menagerie/" (24373 40674 153250 305000) "sharding.md" "Makefile" ".circleci/" "TODO.txt" ".deps-sans-ss-client.txt.swp" "menagerie.docker.env" ".deps-with-ss-client.txt.swp" "db/" "Gemfile.lock" "test/" "Dockerfile" "docs/" ".lein-env" "CHANGELOG.md" "./" ".github/" "circle.yml" "resources/" "../" "pgdata/" ".nrepl-port" "dev-resources/" "Gemfile" "src/" "Rakefile" ".gitignore" "target/" "docker-compose.yml" "project.clj" "~" ".lein-failures" "LICENSE" "README.md" "docker-compose.override.yml" "env-vars.txt" ".git/" "test-containers/" "bin/")
+
+ ("/opt/code/environments/environments/smart-services/vm/" (24373 21514 427631 900000) "TALEND_SMART_SERVICES_S3_DESTINATION_BUCKET.txt" "TALEND_SMART_SERVICES_HTTP_PORT.txt" "TALEND_SMART_SERVICES_EVENTS_CONSUMER_COUNT.txt" "TALEND_SMART_SERVICES_SSL_JKS_TRUSTSTORE_LOCATION.txt" "TALEND_SMART_SERVICES_PARQUET_WRITER_PAGE_SIZE.txt" "TALEND_SMART_SERVICES_DB_POOL_MAX_SIZE.txt" "TALEND_SMART_SERVICES_BATCH_INFERENCE_TOPICS.txt" "TALEND_SMART_SERVICES_KAFKA_BOOTSTRAP_SERVERS.txt" "TALEND_SMART_SERVICES_NREPL_PORT.txt" "TALEND_SMART_SERVICES_DB_PORT.txt" "./" "../" "TALEND_SMART_SERVICES_DB_USERNAME.txt" "TALEND_SMART_SERVICES_BATCH_MAX_MILLIS.txt" "TALEND_SMART_SERVICES_S3_REJECT_BUCKET.txt" "TALEND_SMART_SERVICES_GOD_TOKEN.encrypted" "TALEND_SMART_SERVICES_EVENT_TOPICS.txt" "TALEND_SMART_SERVICES_DB_PASSWORD.encrypted" "TALEND_SMART_SERVICES_DB_HOST.txt" "TALEND_SMART_SERVICES_BATCH_INFERENCES_CONSUMER_COUNT.txt" "TALEND_SMART_SERVICES_BATCH_MAX_BYTES.txt" "TALEND_SMART_SERVICES_PARQUET_WRITER_BLOCK_SIZE.txt" "TALEND_SMART_SERVICES_SCHEMA_REGISTRY_HOST.txt" "TALEND_SMART_SERVICES_DB_DATABASE.txt" "TALEND_SMART_SERVICES_SCHEMA_VALIDATION.txt")
+
+ ("/opt/code/environments/environments/smart-services/prod/" (24373 21514 427631 900000) "TALEND_SMART_SERVICES_S3_DESTINATION_BUCKET.txt" "TALEND_SMART_SERVICES_HTTP_PORT.txt" "TALEND_SMART_SERVICES_EVENTS_CONSUMER_COUNT.txt" "TALEND_SMART_SERVICES_SSL_JKS_TRUSTSTORE_LOCATION.txt" "TALEND_SMART_SERVICES_PARQUET_WRITER_PAGE_SIZE.txt" "TALEND_SMART_SERVICES_DB_POOL_MAX_SIZE.txt" "TALEND_SMART_SERVICES_BATCH_INFERENCE_TOPICS.txt" "TALEND_SMART_SERVICES_KAFKA_BOOTSTRAP_SERVERS.txt" "TALEND_SMART_SERVICES_NREPL_PORT.txt" "TALEND_SMART_SERVICES_DB_PORT.txt" "./" "../" "TALEND_SMART_SERVICES_DB_USERNAME.txt" "TALEND_SMART_SERVICES_BATCH_MAX_MILLIS.txt" "TALEND_SMART_SERVICES_S3_REJECT_BUCKET.txt" "TALEND_SMART_SERVICES_GOD_TOKEN.encrypted" "TALEND_SMART_SERVICES_EVENT_TOPICS.txt" "TALEND_SMART_SERVICES_DB_PASSWORD.encrypted" "TALEND_SMART_SERVICES_DB_HOST.txt" "TALEND_SMART_SERVICES_BATCH_INFERENCES_CONSUMER_COUNT.txt" "TALEND_SMART_SERVICES_BATCH_MAX_BYTES.txt" "TALEND_SMART_SERVICES_PARQUET_WRITER_BLOCK_SIZE.txt" "TALEND_SMART_SERVICES_SCHEMA_REGISTRY_HOST.txt" "TALEND_SMART_SERVICES_DB_DATABASE.txt" "TALEND_SMART_SERVICES_SCHEMA_VALIDATION.txt")
+
+ ("/opt/code/smart-services-client/src/com/stitchdata/smart_services_client/" (24372 17180 714490 242000) "#config.clj#" "misc.clj" "config.clj~" ".#config.clj" "./" "../" "config.clj" "producer.clj" "schema.clj" "#producer.clj#")
+
+ ("/opt/code/smart-services/test/com/stitchdata/smart_services/" (24371 62662 974647 742000) "consumers/" "s3_utils.clj" "topic_utils.clj" "test_utils.clj" "./" "topic_utils.clj~" "../" "test_utils.clj~" "batch_inferences_test.clj" "batch_inferences_test.clj~")
+
+ ("/opt/code/smart-services-client/src/com/stitchdata/" (24194 13076 529596 38000) "smart_services_client/" "./" "../")
+
+ ("/opt/code/smart-services-client/src/com/" (24194 13076 529596 38000) "./" "../" "stitchdata/")
+
+ ("/opt/code/smart-services-client/src/" (24194 13076 529596 38000) "com/" "./" "../")
+
+ ("/opt/code/smart-gate/test/com/talend/" (24365 37900 44095 161000) "./" "../" "smart_gate/")
+
+ ("/opt/code/smart-gate/test/com/" (24370 53208 393453 761000) "./" "../" "talend/")
+
+ ("/opt/code/smart-gate/src/com/talend/" (24365 37822 28432 780000) "./" "../" "smart_gate/")
+
+ ("/opt/code/smart-gate/test/com/stitchdata/smart_gate/" (24370 53054 370038 315000) ".#schemas_test.clj" "./" "schemas_test.clj" "../" "#schemas_test.clj#")
+
+ ("/opt/code/smart-gate/src/com/stitchdata/smart_gate/models/" (24369 46561 829515 840000) ".#schemas.clj" "./" "#schemas.clj#" "../" "schemas.clj~")
+
+ ("/opt/code/smart-gate/test/com/stitchdata/" (24365 37900 44095 161000) "./" "../" "smart_gate/")
+
+ ("/opt/code/smart-gate/test/" (24365 45794 481091 497000) "com/" "./" "../")
+
+ ("/opt/code/smart-gate/src/com/stitchdata/smart_gate/" (24369 48575 799229 662000) "config.clj~" "./" "schemas.clj" "../" "main.clj" "config.clj" "schemas.clj~" "main.clj~" "models/")
+
+ ("/opt/code/confluent-schema-client/src/" (24369 41230 738570 155000) "com/" "./" "../")
+
+ ("/opt/code/confluent-schema-client/src/com/talend/" (24369 40467 342158 792000) "./" "../" "confluent_schema_client/")
+
+ ("/opt/code/confluent-schema-client/src/com/" (24369 40467 342158 792000) "./" "../" "talend/")
+
+ ("/opt/" (24364 1262 582284 593000) "containerd/" "chef/" "./" "../" "code/" "chef-workstation/" "deploy/" "revision/")
+
+ ("/opt/code/ide/bash/functions/" (24196 45002 92080 207000) "_deprecation.bash" "ssh.bash" "connections_service.bash" "menagerie.bash" "loader_bq.bash" "aws.bash" "clojars.bash" "k8s.bash" "environments.bash" "e12h.bash" "core_services.bash" "./" "stats_service.bash" "git.bash" "../" "spool.bash" "loader_snow.bash" "boxcutter.bash" "virtualbox.bash" "test_kitchen.bash" "clojure.bash" "backup.bash" "sourcerer.bash" "tmux.bash" "jenkins.bash" "stitch_task.bash" "rjmetrics.bash" "webhookz.bash" "dbreplicators.bash" "date.bash" "loader_x.bash" "gate.bash")
+
+ ("/opt/code/loader-delta/" (24198 12169 852133 714000) "Makefile" ".circleci/" "test/" "CHANGELOG.md" "./" ".github/" "resources/" "../" "doc/" "src/" ".gitignore" "project.clj" "LICENSE" "README.md" ".git/" "bin/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
