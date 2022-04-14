@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: filter
+# key: filter
+# --
+
+(filter
+  (fn [$2] ($0))
+  $1)

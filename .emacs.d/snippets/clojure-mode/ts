@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ts
+# key: ts
+# --
+
+(.getMillis (org.joda.time.DateTime.)) $0
